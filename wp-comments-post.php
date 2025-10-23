@@ -27,7 +27,7 @@ if ( is_wp_error( $comment ) ) {
 	$data = (int) $comment->get_error_data();
 	if ( ! empty( $data ) ) {
 		wp_die(
-			'<div>' . $comment->get_error_message() . '</div>',
+			'<div><p>' . $comment->get_error_message() . '</p></div>',
 			__( 'Comment Submission Failure' ),
 			array(
 				'response'  => $data,

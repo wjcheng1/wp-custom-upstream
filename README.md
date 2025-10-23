@@ -1,5 +1,5 @@
 # WordPress
-<<<<<<< Updated upstream2
+<<<<<<< Updated upstream3
 
 =======
 upstream change
